@@ -5,4 +5,8 @@
 
 * **Nane&Limon-Tanıtım.pdf** dökümanı yarışmaya katılmak için oluşturulan ilk dökümandır.
 
-* **Nane&Limon-Sunum.pdf** dökümanı yarışma sonunda yapılacak olan sunum dökümanıdır.
+* **Nane&Limon-Sunumu.pdf** dökümanı yarışma sonunda yapılacak olan sunum dökümanıdır.
+> Not: Cihaz farkı nedeniyle bozulma olması ihtimalinden dolayı eklenmiştir.
+
+* **Nane&Limon-Sunumu.pptx** dökümanı yarışma sonunda yapılacak olan sunum interaktif dökümanıdır.
+
