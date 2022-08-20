@@ -32,3 +32,14 @@
   - Adım adım 5: Modelin Ürünleştirilmesi:
     - 5.1 Python FastAPI: https://github.com/Teknofest-Nane-Limon/turkish-bullying-api
     - 5.2 Hugging Face : https://huggingface.co/nanelimon/bert-base-turkish-bullying
+    
+    
+  ## Örnekler
+  > Cinsiyetçilik Örneği:
+    ![plot](/img/Cinsiyetçilik.jpeg)
+  > Irkçılık Örneği:
+    ![plot](/img/Irkçılık.jpeg)
+  > Kızdırma Örneği:
+    ![plot](/img/Kızdırma.jpeg)
+  > Nötr Örneği
+    ![plot](/img/Nötr.jpeg)
