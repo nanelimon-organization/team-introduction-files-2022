@@ -14,6 +14,8 @@
 
   ![plot](/img/akış.drawio.png)
   
+  Veri Kazıma Demo Videosuna [buradan ulaşabilirsiniz.](https://youtu.be/yn03mcsl42M)
+  Araçların tanımın videosuna [buradan ulaşabilirsiniz.](https://www.youtube.com/watch?v=osjWOwDcqvQ&t=4&ab_channel=AlaaddinErdin%C3%A7DAL)
   
   - Adım adım 1: Veri Kazıma Aracı: https://github.com/Teknofest-Nane-Limon/twitter-scraper
   
