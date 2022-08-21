@@ -9,6 +9,36 @@
   > Not: Cihaz farkı nedeniyle bozulma olması ihtimalinden dolayı eklenmiştir.
 
 * **Nane&Limon-Sunumu.pptx** dökümanı yarışma sonunda yapılacak olan sunum interaktif dökümanıdır.
+### Problem?
+Siber zorbalık,
+Bir kişiyi veya kişinin içinde bulunduğu belli bir topluluğu  hedef alan her türlü aşağılayıcı, küçük düşürücü ve zedeleyici  paylaşımların tümüdür.
+UNESCO’nun siber zorbalığın yüksek gelir düzeyindeki  ülkelerde yaygınlığı ile ilgili verilerine göre siber zorbalıktan  etkilenen çocukların ve ergenlerin oranı yüzde 5 ile yüzde 21  arasında değişmektedir. Bu arada kızların bu tür zorbalığa  maruz kalma olasılığı erkeklere göre daha yüksektir.
+- Yarışmada, Türkçe metinlerden siber zorbalık yapılması ve yapılan zorbalığın alt kategorisinin yüzdelik oranla ne olduğunu tespit eden bir model geliştirilmesi hedeflenmiştir. 
+
+## Katkılarımız
+  Proje kapsamında ;
+  * 3388 adet 4 kategorili etiketli güncel [veri seti](https://huggingface.co/datasets/nanelimon/turkish-social-media-bullying-dataset) üretilmiştir.
+  * Aşağıda görüldüğü gibi [yüksek başarı oranlarına sahip alt kategorileri bulunan Türkçe Siber Zorbalık modeli]( https://huggingface.co/nanelimon/bert-base-turkish-bullying) kazandırılmıştır. 
+  
+  |        | Cinsiyetçilik | Irkçılık | Kızdırma | Nötr | Accuracy |
+  | ------ | ------  | ------ | ------  | ------ | ------ |
+  | Precision | 0.884298 | 0.844037 | 0.910180 | 0.903571 | 892171 |
+  | Recall  | 0.891667 | 0.938776 | 0.835165 | 0.913357 | 892171 |
+  | F1 Score | 0.887967 | 0.888889 | 0.871060 | 0.908438 | 892171 |
+  
+  * Oluşturulan yeni veri seti için bir çok yöntem denenerek literatüre henüz yeni katılmış olan bu veri seti için ilk hyper parametre araştırmaları yapılmıştır.([TFIDF & ML modelleri](https://github.com/Teknofest-Nane-Limon/tfidf-model-turkish-bullying) ve [Transformers(BERT)]((https://github.com/Teknofest-Nane-Limon/bert-base-turkish-bullying)) yöntemler denenmiştir.) 
+  * Türkçe Doğal Dil İşleme yapılırken diğer araştırmacıların ön işleme adımlarını hızlıca geçebilmeleri için [veri temizleme aracı](https://text-data-cleaner.herokuapp.com/) geliştirilip yayınlanmıştır.
+  * Türkçe Doğal Dil İşleme yapacak diğer araştırmacıların ihtiyaç duydukları twitter verileri için hiçbir kütüphaneden hazır bir araç kullanılmayarak ** özgün algoritmalar ** ile [veri çeken bir bot](https://github.com/Teknofest-Nane-Limon/twitter-scraper) yazılmıştır.
+  * Veri etiketleme adımında kendi özgün veri etiketleme aracımızı yazarak bundan sonra yapacağımız çalışmalar için ve diğer bütün veri etiketleme üzerine çalışan araştırmacılar için daha hızlı, kolay ve erişilebilir etiketleyebilmek, çapraz kontrollerini yapabilmek ve istatistiklerine heran ulaşabilmek için [kendi veri etiketleme aracımızı yazdık](https://easy-data-labeling-engine.herokuapp.com/)
+  * Oluşturulan başarılı model [ürünleştirilmiştir](https://github.com/Teknofest-Nane-Limon/turkish-bullying-api).
+  
+  ### Oluşturulan servisin uygulama halini [buradan deneyebilirsiniz.](https://duvar-app.herokuapp.com/)
+
+* ÖNEMLİ NOT:
+  > * Çalışma boyunca hiçbir hazır api, kütüphane, veri seti, araç veya model kullanılmamıştır. Tamamen özgün bir projedir.
+  > * Çalışma boyunca hiçbir ücretli uygulama, sunucu veya domain hizmeti kullanılmamıştır.
+  
+
 
 ### Yapılan proje adımları aşağıda yer almaktadır.
 
