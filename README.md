@@ -28,14 +28,14 @@ UNESCO’nun siber zorbalığın yüksek gelir düzeyindeki  ülkelerde yaygınl
   
   * Oluşturulan yeni veri seti için bir çok yöntem denenerek literatüre henüz yeni katılmış olan bu veri seti için ilk hyper parametre araştırmaları yapılmıştır.([TFIDF & ML modelleri](https://github.com/Teknofest-Nane-Limon/tfidf-model-turkish-bullying) ve [Transformers(BERT)]((https://github.com/Teknofest-Nane-Limon/bert-base-turkish-bullying)) yöntemler denenmiştir.) 
   * Türkçe Doğal Dil İşleme yapılırken diğer araştırmacıların ön işleme adımlarını hızlıca geçebilmeleri için [veri temizleme aracı](https://text-data-cleaner.herokuapp.com/) geliştirilip yayınlanmıştır.
-  * Türkçe Doğal Dil İşleme yapacak diğer araştırmacıların ihtiyaç duydukları twitter verileri için hiçbir kütüphaneden hazır bir araç kullanılmayarak ** özgün algoritmalar ** ile [veri çeken bir bot](https://github.com/Teknofest-Nane-Limon/twitter-scraper) yazılmıştır.
+  * Türkçe Doğal Dil İşleme yapacak diğer araştırmacıların ihtiyaç duydukları twitter verileri için hiçbir kütüphaneden hazır bir araç kullanılmayarak **özgün algoritmalar** ile [veri çeken bir bot](https://github.com/Teknofest-Nane-Limon/twitter-scraper) yazılmıştır.
   * Veri etiketleme adımında kendi özgün veri etiketleme aracımızı yazarak bundan sonra yapacağımız çalışmalar için ve diğer bütün veri etiketleme üzerine çalışan araştırmacılar için daha hızlı, kolay ve erişilebilir etiketleyebilmek, çapraz kontrollerini yapabilmek ve istatistiklerine heran ulaşabilmek için [kendi veri etiketleme aracımızı yazdık](https://easy-data-labeling-engine.herokuapp.com/)
   * Oluşturulan başarılı model [ürünleştirilmiştir](https://github.com/Teknofest-Nane-Limon/turkish-bullying-api).
   
   ### Oluşturulan servisin uygulama halini [buradan deneyebilirsiniz.](https://duvar-app.herokuapp.com/)
 
 * ÖNEMLİ NOT:
-  > * Çalışma boyunca hiçbir hazır api, kütüphane, veri seti, araç veya model kullanılmamıştır. Tamamen özgün bir projedir.
+  > * Çalışma boyunca hiçbir hazır api, kütüphane, veri seti, araç veya model kullanılmamıştır.
   > * Çalışma boyunca hiçbir ücretli uygulama, sunucu veya domain hizmeti kullanılmamıştır.
   
 
