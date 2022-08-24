@@ -20,11 +20,13 @@ UNESCO’nun siber zorbalığın yüksek gelir düzeyindeki  ülkelerde yaygınl
   * 3388 adet 4 kategorili etiketli güncel [veri seti](https://huggingface.co/datasets/nanelimon/turkish-social-media-bullying-dataset) üretilmiştir.
   * Aşağıda görüldüğü gibi [yüksek başarı oranlarına sahip alt kategorileri bulunan Türkçe Siber Zorbalık modeli]( https://huggingface.co/nanelimon/bert-base-turkish-bullying) kazandırılmıştır. 
   
-  |        | Cinsiyetçilik | Irkçılık | Kızdırma | Nötr | Accuracy |
-  | ------ | ------  | ------ | ------  | ------ | ------ |
-  | Precision | 0.884298 | 0.844037 | 0.910180 | 0.903571 | 892171 |
-  | Recall  | 0.891667 | 0.938776 | 0.835165 | 0.913357 | 892171 |
-  | F1 Score | 0.887967 | 0.888889 | 0.871060 | 0.908438 | 892171 |
+    |        | Cinsiyetçilik | Irkçılık | Kızdırma | Nötr | 
+    | ------ | ------  | ------ | ------  | ------ |
+    | Precision | 0.925 | 0.878 | 0.824 | 0.915 |
+    | Recall  | 0.831 | 0.896 | 0.843 | 0.935 |
+    | F1 Score | 0.875 | 0.887 | 0.833 | 0.925 |
+
+    Accuracy : 0.886
   
   * Oluşturulan yeni veri seti için bir çok yöntem denenerek literatüre henüz yeni katılmış olan bu veri seti için ilk hyper parametre araştırmaları yapılmıştır.([TFIDF & ML modelleri](https://github.com/Teknofest-Nane-Limon/tfidf-model-turkish-bullying) ve [Transformers(BERT)]((https://github.com/Teknofest-Nane-Limon/bert-base-turkish-bullying)) yöntemler denenmiştir.) 
   * Türkçe Doğal Dil İşleme yapılırken diğer araştırmacıların ön işleme adımlarını hızlıca geçebilmeleri için [veri temizleme aracı](https://text-data-cleaner.herokuapp.com/) geliştirilip yayınlanmıştır.
