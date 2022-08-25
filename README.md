@@ -6,6 +6,9 @@
 * **Nane&Limon-Tanıtım.pdf** dökümanı yarışmaya katılmak için oluşturulan ilk dökümandır.
 
 * **Nane&Limon-Sunumu.pptx** dökümanı yarışma sonunda yapılacak olan sunum interaktif dökümanıdır.
+
+* proje anlatımı:  https://m.youtube.com/watch?v=9Y1G0XmRiFU&feature=youtu.be
+
 ### Problem?
 Siber zorbalık,
 Bir kişiyi veya kişinin içinde bulunduğu belli bir topluluğu  hedef alan her türlü aşağılayıcı, küçük düşürücü ve zedeleyici  paylaşımların tümüdür.
